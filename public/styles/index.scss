@@ -1,0 +1,18 @@
+body {
+    background: lightsalmon;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: 300px;
+    grid-auto-columns: 300px; 
+    gap: 1em;
+    align-content: center;
+    justify-content: center;
+    
+    .content{
+        background: lightblue;
+        text-align: center;
+        align-content: center;
+    }
+}

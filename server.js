@@ -5,6 +5,7 @@ const port = 8080;
 
 app.set('view engine', 'pug');
 app.use(express.static(path.join(__dirname, "public"))); 
+app.use(express.static(path.join(__dirname, "public/styles"))); 
 
 app.listen(port, () => {
     console.log("Server running on port 8080")

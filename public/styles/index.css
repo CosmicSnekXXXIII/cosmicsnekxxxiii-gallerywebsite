@@ -1,0 +1,17 @@
+body {
+  background: lightsalmon;
+}
+
+.grid {
+  display: grid;
+  grid-auto-rows: 300px;
+  grid-auto-columns: 300px;
+  gap: 1em;
+  align-content: center;
+  justify-content: center;
+}
+.grid .content {
+  background: lightblue;
+  text-align: center;
+  align-content: center;
+}/*# sourceMappingURL=index.css.map */
